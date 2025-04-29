@@ -1,6 +1,10 @@
 header {
     width: 100%;
     padding: 28px 8%;
+    position: sticky;
+    top: 0;
+    background-color: #ebe6da;
+    z-index: 3;
 }
 
 #navbar {
@@ -27,7 +31,7 @@ header {
     border-bottom: 2px solid #e78121;
 }
 
-#mobile_btn {
+#mobile-btn {
     display: none;
 }
 
